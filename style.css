@@ -70,6 +70,7 @@ main {
     border-color:rgb(116, 116, 116);
     padding: 12px;
     margin: 12px;
+    background-color: rgba(0, 0, 0, 0.452);
 }
 
 .title {
