@@ -68,8 +68,8 @@ main {
     justify-content: center;
     border: solid;
     border-color:rgb(116, 116, 116);
-    padding: 8px;
-    margin-bottom: 8px;
+    padding: 12px;
+    margin: 12px;
 }
 
 .title {
