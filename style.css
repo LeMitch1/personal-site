@@ -68,7 +68,7 @@ main {
     justify-content: center;
     border: solid;
     border-color:rgb(116, 116, 116);
-    padding: 12px;
+    padding: 20px;
     margin: 12px;
     background-color: rgba(0, 0, 0, 0.452);
 }
@@ -113,4 +113,8 @@ main {
 .project {
     display: flex;
     justify-content: center;
+}
+
+.about-body {
+    margin: 6em;
 }
