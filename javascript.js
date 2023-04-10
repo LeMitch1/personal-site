@@ -1,8 +1,6 @@
-// alert("Welcome to my personal website!");
-
 const form = document.querySelector("#form")
 const submitButton = document.querySelector("#submit")
-const scriptURL = 'https://script.google.com/macros/s/1XTaVdkdAnzhAHoLOA-x0K4svtJOB9RUnp2OgudFCNoEE4Lo8muDKOgSO/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxLZTlgHBunzjDAyvzTFB9AAQZS2vGT4hSZKlfMDVMQrrHEQwKDYO2-fo05BNfFegYWVg/exec'
 
 form.addEventListener('submit', e => {
   submitButton.disabled = true
