@@ -2,10 +2,9 @@
 
 body {
     color: white;
-    background-image: url(images/fuji.jpg);
+    background: url(images/fuji.jpg) no-repeat center center fixed;
     background-color: rgb(116, 116, 116);
     background-size: cover;
-    background-repeat: no-repeat;
     background-blend-mode: multiply;
     font-family: 'Montserrat';
 }
