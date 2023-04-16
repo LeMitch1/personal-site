@@ -11,8 +11,9 @@ body {
 }
 
 img {
-    width: 300px;
-    padding: 10px 10px 40px 10px;
+    /* width: 300px; */
+    width: 30em;
+    padding: 1em;
 }
 
 header {
@@ -75,7 +76,8 @@ a:hover {
 .heading {
     text-align: center;
     font-size: 2em;
-    padding: 20px;
+    /* padding: 20px; */
+    padding: 1%;
 }
 
 .container {
@@ -89,13 +91,34 @@ a:hover {
 }
 
 .title {
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 2em;
 }
 
 .subtext {
-    font-size: 20px;
+    font-size: 1.5em;
     text-align: center;
     margin: auto;
+}
+
+@media(max-width: 480px) {
+    .heading {
+        font-size: 20px;
+    }
+    .title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 60em;
+    }
+    .subtext {
+        font-size: 12px;
+    }
 }
 
 .card {
